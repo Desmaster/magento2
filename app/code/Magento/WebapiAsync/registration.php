@@ -6,8 +6,6 @@
 
 declare(strict_types=1);
 
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Magento_WebapiAsync',
-    __DIR__
-);
+use Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::registerModule('Magento_WebapiAsync', __DIR__);

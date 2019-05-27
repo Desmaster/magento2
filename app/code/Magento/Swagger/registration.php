@@ -6,4 +6,4 @@
 
 use \Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magento_Swagger', __DIR__);
+ComponentRegistrar::registerModule( 'Magento_Swagger', __DIR__);

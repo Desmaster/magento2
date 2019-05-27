@@ -6,4 +6,4 @@
 
 use \Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magento_SampleData', __DIR__);
+ComponentRegistrar::registerModule( 'Magento_SampleData', __DIR__);

@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magento_CatalogUrlRewriteGraphQl', __DIR__);
+ComponentRegistrar::registerModule( 'Magento_CatalogUrlRewriteGraphQl', __DIR__);
